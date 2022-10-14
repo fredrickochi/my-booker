@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color:azure;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+}
+.nav-logo {
+    margin-left: 20px;
+}
+.logo {
+    height: 150px;
+    width: 150px;
+    padding-top: -10px;
+    border-radius:60px;
+    border-color: azure;
+}
+.logo:hover {
+    color:aqua;
+    cursor: pointer;
+}
+.nav-menu {
+    padding-left: 300px;
+    margin-top: 40px;
+    justify-items: space-between;
+    display: flex;
+}
+.contact {
+    padding-left: 120px;
+}
+.register {
+    padding-left: 100px;
+}
+a .btn {
+    background: orange;
+    cursor: pointer;
+}
+.btn{
+    color: rgb(33, 14, 210);
+    font-size: large;
+    height: 30px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    background: orange;
+    cursor: pointer;
+}
+.btn :hover{
+    color:oldlace;
+}
+.section {
+    height: 600px;
+    background: url("https://www.keltruck.com/wp-content/uploads/2017/04/new-adventure-travel-scania-coach-maintained-by-keltruck.jpg");
+}
+.container {
+    margin-left: 50px;
+    margin-top: -25px;
+    margin-right: 50px;
+    background-color: azure;
+    height: 200px;
+}
+.form-header{
+    display: flex;
+    justify-items:center;
+    margin-left: 5px;
+    padding: 40px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.form-group {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+    
+}
+.form-header-search {
+    margin-top: 40px ;
+    margin-left: 30px;
+}
+.form-header :hover{
+    color: orange;
+    cursor: pointer;
+}
+input{
+    border-color: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: black;
+    height: 40px;
+    size-adjust: 10px;
+}
+input:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.icon {
+    font-size: 24px;
+    padding-top: 48px;
+    padding-left: 0px;
+    margin-left: -240px;
+  }
+  .table1-bus {
+    border-radius: 50px;
+    padding-left: -10px;
+    border: none;
+    width: 200px;
+  }
+  .table1-bus1 {
+    border-radius: 50px;
+    padding-left: -10px;
+    border: none;
+    width: 200px;
+    height: 150px;
+  }
+  .table1 {
+    border-radius: 1px;
+    border: 1;
+  }
+  .table {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 0px;
+    background-color: azure;
+    height: 250px;
+    border: 1;
+  }
+  .btn a{
+    color: rgb(5, 4, 9);
+  }
+  .page {
+    margin-top: 800px;
+    background: azure;
+    height: 450px;
+  }
+  .contact-form {
+    padding-left: 100px;
+    padding-top: 30px;
+  }
+.footer {
+    margin-top: 80px;
+    height: 400px;
+    background: rgb(14, 13, 13);
+    color: #fff;
+    width: auto;
+}
+.footer-header {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+ion-icon {
+    font-size: 30px;
+    align-items: center;
+}
+.social-icon{
+    color: orange;
+    transition: color 0.2s;
+    text-decoration: none;
+
+ }
+ .top {
+    font-size: 64px;
+    padding-top: 45px;
+    color: orange;
+  }
+.seat {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seat :hover{
+    cursor: pointer;
+}
+.seat-D {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+.cost {
+    background-color: aqua;
+    margin-right: 200px;
+    text-align: left;
+    margin-top: -250px;
+    margin-left: 850px
+}
+.seat:hover .cost{
+    display: block;
+}
+.payout {
+    background-color: azure;
+    height: 600px;
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
